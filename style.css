@@ -1,0 +1,162 @@
+.container {
+    border: #fcfdf8 solid 1px;
+}
+
+#main-header {
+    background-color: #41554c;
+    border-radius: 8px;
+}
+
+#logo {
+    color: white;
+    font-size: 30px;
+}
+
+
+/*#search-1 {
+    background-color: rgb(141, 101, 179);
+    border: 3px solid rgb(41, 29, 37);
+}*/
+
+#search-1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#search-1 a {
+    transition: 0.3s;
+}
+
+#search-1 a:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #6ab48c, #3f3e3c);
+    border-radius: 5px;
+}
+
+
+/*#search-2 {
+    background-color: rgb(231, 233, 126);
+    border: 3px solid blue;
+}*/
+
+#search-2 input {
+    border-radius: 10px;
+}
+
+#search-2 button {
+    border-radius: 10px;
+    background-color: rgb(163 169 110 / 88%);
+}
+
+#banner {}
+
+#vlog-contant {
+    background: linear-gradient(45deg, #90d8b2, #94928f);
+    color: #292525;
+}
+
+#part-1 {
+    background: linear-gradient(45deg, #bcdaca, #94928f);
+}
+
+#part-2 {
+    background: linear-gradient(45deg, #82a793, #94928f);
+}
+
+#box {
+    background-color: rgb(247, 245, 244);
+}
+
+#vlog-1 {
+    background: #1e293b;
+}
+
+.card img {}
+
+.card-body {}
+
+.card-text {
+    color: #0d0d0e;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #0d0d0e;
+    border-radius: 20px;
+    color: #fdf9f9;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #68a785, #b497b2);
+}
+
+.color {
+    background: linear-gradient(45deg, #fcfdfc, #e7e5e7);
+}
+
+.pagination .page-link {
+    border-radius: 2px;
+}
+
+.custom-row .col-md-6 {
+    transition: .4s;
+}
+
+.custom-row .col-md-6:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Tablet */
+
+@media (max-width:768px) {
+    .custom-row {
+        padding: 20px 15px;
+    }
+    .custom-row .col-md-6 {
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .card-text {
+        font-size: 13px;
+    }
+    .btn {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:576px) {
+    .custom-row {
+        padding: 15px 10px;
+    }
+    .custom-row .col-md-6 {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .card-text {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    .btn {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .custom-row .col-md-6:hover {
+        transform: none;
+        /* mobile pe hover off */
+    }
+}
